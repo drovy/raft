@@ -153,5 +153,5 @@ AS_IF(test "$have_uv" = yes, REQUIRES="$REQUIRES libuv")
 AS_IF(test "$have_lz4" = yes, REQUIRES="$REQUIRES liblz4")
 AC_SUBST(REQUIRES)
 
-AC_CONFIG_FILES([raft.pc Makefile])
+AC_CONFIG_FILES([raft.pc raft.spec Makefile])
 AC_OUTPUT
